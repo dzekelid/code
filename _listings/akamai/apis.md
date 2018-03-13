@@ -33,7 +33,7 @@ apis:
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/akamai/papi-v0-cpcodes-contractid,groupid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/akamai/papi-v0-cpcodes-contractid,groupid-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
