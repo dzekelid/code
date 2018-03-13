@@ -33,7 +33,7 @@ apis:
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/akamai/cloudletcode-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/akamai/diagnostic-tools-v1-errortranslator-errorcode-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
