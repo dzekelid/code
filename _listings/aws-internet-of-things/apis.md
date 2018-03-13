@@ -22,7 +22,17 @@ created: "2018-03-13"
 modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/aws-internet-of-things/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Internet of Things API
+  description: AWS IoT is a managed cloud platform that lets connected devices easily
+    and securely interact with cloud applications and other devices
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: ""
+  baseURL: :///
+  tags: Code
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/aws-internet-of-things/action-getregistrationcode-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
