@@ -27,7 +27,7 @@ apis:
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/amadeus/hotels-property-code-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/amadeus/location-code-get.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
