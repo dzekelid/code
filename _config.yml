@@ -4,7 +4,7 @@ url: code.streamdata.gallery
 tag: Code
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery
+github_user: streamdata-gallery-topics
 github_repo: code
 github_branch: master
 collections:
