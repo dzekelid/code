@@ -28,25 +28,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/amadeus/location-code-get.md
-- name: Amadeus Get Hotels Property Code
-  description: "This API allows you to quickly see the detailed information of a single
-    hotel, including descriptions, address, GPS location, amenities, awards, lowest
-    priced room and all room prices and booking information. \n\nThis API gives you
-    more information on a specific property. Optional parameters such as show_sold_out
-    & rooms can be used to show sold out rooms and all available rooms. \n\nThe API
-    is based on our high-speed hotel pricing cache, which is also used to power the
-    Amadeus Hotel Search Engine application. Results are returned very quickly, response
-    times are generally under 2s. Our cache has great global coverage and is constantly
-    refreshed with the latest prices."
+- name: Amadeus Get Location Code
+  description: |-
+    This service retrieves the location information corresponding to a IATA city or airport code.
+
+    When provided with an IATA code, the service determines whether this code could relate to a city code, an airport code or both. If the city could contain multiple airports, it will return all possible airports that correspond to that city code.
+
+    This API is based on the Amadeus supported Geobases open-source project. If you wish to make your own database with all IATA location information, in order to get faster reponses, you can download the latest raw data from their github page.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
   baseURL: https://api.sandbox.amadeus.com//v1.2
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/amadeus/hotels-property-code-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/amadeus/location-code-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/amadeus/hotels-property-code-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/amadeus/location-code-get-postman.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
