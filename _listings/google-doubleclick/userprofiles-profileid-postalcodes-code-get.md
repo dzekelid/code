@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get Postal Code
   version: 1.0.0
+  description: Gets one postal code by ID.
 schemes:
 - http
 produces:
