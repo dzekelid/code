@@ -28,16 +28,16 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
 apis:
-- name: OpenCorporates Companies  Jurisdiction Code  Company Number Network
-  description: nThis returns the immediate &#39;computed corporate network&#39; for
-    the given company as a set of control relationships (i
+- name: OpenCorporates Industry Codes  Code Scheme ID
+  description: nThis call returns further details about the code_scheme, together
+    with the list of industry codes associated with it
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
   humanURL: https://opencorporates.com/
   baseURL: http:://api.opencorporates.com/v0.4/
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/opencorporates/companies-jurisdiction-code-company-number-network-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/opencorporates/industry-codes-code-scheme-id-get.md
 x-common:
 - type: x-base
   url: https://api.opencorporates.com/
