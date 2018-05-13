@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Create a New CP Code
-  description: Create a New CP Code
+- name: Akamai API Get a CP Code
+  description: Get a CP Code
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/akamai/papi-v0-cpcodes-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/akamai/papi-v0-cpcodes-cpcodeid-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
