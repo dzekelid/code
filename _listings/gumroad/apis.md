@@ -24,16 +24,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/gumroad/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Gumroad Post Products Offer Codes
-  description: Create a new offer code for a product. Default offer code is in cents.
-    A universal offer code is one that applies to all products.
+- name: Gumroad Get Products Offer Codes
+  description: Retrieve the details of a specific offer code of a product
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gumroad.jpeg
   humanURL: https://gumroad.com
   baseURL: https://api.gumroad.com//v2
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/gumroad/products-product-id-offer-codes-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/gumroad/products-product-id-offer-codes-id-get.md
 x-common:
 - type: x-application-management
   url: https://gumroad.com/settings/developer
