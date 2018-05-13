@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Internet of Things API
+  title: AWS Internet of Things API Get Registration Code
   version: 1.0.0
+  description: Gets a registration code used to register a CA certificate with AWS
+    IoT.
 schemes:
 - http
 produces:
@@ -10,7 +12,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetRegistrationCode&k=1:
+  /?Action=GetRegistrationCode:
     get:
       summary: ' Get Registration Code '
       description: Gets a registration code used to register a CA certificate with
