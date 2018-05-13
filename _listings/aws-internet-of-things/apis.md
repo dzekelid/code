@@ -64,6 +64,36 @@ x-common:
   url: https://aws.amazon.com/iot-platform/
 - type: x-white-papers
   url: https://aws.amazon.com/iot-platform/developer-resources/#Whitepapers
+- type: x-blog
+  url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/iot/index.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/iot/latest/apireference/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/iot/latest/developerguide/thing-shadow-rest-api.html
+- type: x-faq
+  url: https://aws.amazon.com/iot-platform/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/iot-platform/getting-started/
+- type: x-how-it-works
+  url: https://aws.amazon.com/iot-platform/how-it-works/
+- type: x-partners
+  url: https://aws.amazon.com/iot/partner-solutions/
+- type: x-pricing
+  url: https://aws.amazon.com/iot-platform/pricing/
+- type: x-sdk
+  url: https://aws.amazon.com/iot-platform/developer-resources/#SDKs
+- type: x-slides
+  url: https://aws.amazon.com/iot-platform/developer-resources/#Slides
+- type: x-videos
+  url: https://aws.amazon.com/iot-platform/developer-resources/#Videos
+- type: x-webinars
+  url: https://aws.amazon.com/iot-platform/developer-resources/#Webinars
+- type: x-website
+  url: https://aws.amazon.com/iot-platform/
+- type: x-white-papers
+  url: https://aws.amazon.com/iot-platform/developer-resources/#Whitepapers
 include: []
 maintainers:
 - FN: Kin Lane
