@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Create Tape With Barcode
   version: 1.0.0
+  description: Creates a virtual tape by using your own barcode.
 schemes:
 - http
 produces:
@@ -10,7 +11,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateTapeWithBarcode&k=1:
+  /?Action=CreateTapeWithBarcode:
     get:
       summary: ' Create Tape With Barcode '
       description: Creates a virtual tape by using your own barcode
