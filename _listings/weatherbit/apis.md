@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/weatherbit/history-hourly-postal-code-postal-code-get.md
-- name: Weatherbit Get Bulk History Hourly Postal Code
-  description: Returns Historical Observations - Given a Postal Code.
+- name: Weatherbit Get Current Postla Code Code
+  description: Returns current weather observation - Given a Postal Code.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/weatherbit/bulk-history-hourly-postal-code-postal-code-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/weatherbit/current-postal-code-postal-code-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/weatherbit/bulk-history-hourly-postal-code-postal-code-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/weatherbit/current-postal-code-postal-code-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
