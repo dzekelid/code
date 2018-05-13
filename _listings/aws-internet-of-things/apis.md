@@ -33,6 +33,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/aws-internet-of-things/action-getregistrationcode-get.md
+- name: AWS Internet of Things API Get Registration Code
+  description: Gets a registration code used to register a CA certificate with AWS
+    IoT.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png
+  humanURL: https://aws.amazon.com/iot-platform/
+  baseURL: http:://{host}//
+  tags: Code
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/aws-internet-of-things/action-getregistrationcode-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/iot-platform/developer-resources/#Blog
