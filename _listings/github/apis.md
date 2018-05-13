@@ -41,15 +41,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/github/search-code-get.md
-- name: Github Add Repos Owner Repo Commits Shacode Comments
-  description: Create a commit comment.
+- name: Github Get Repos Owner Repo Git Blobs Shacode
+  description: |-
+    Get a Blob.
+    Since blobs can be any arbitrary binary data, the input and responses for
+    the blob API takes an encoding parameter that can be either utf-8 or
+    base64. If your data cannot be losslessly sent as a UTF-8 string, you can
+    base64 encode it.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/github/repos-owner-repo-commits-shacode-comments-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/github/repos-owner-repo-git-blobs-shacode-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/github/repos-owner-repo-git-blobs-shacode-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
