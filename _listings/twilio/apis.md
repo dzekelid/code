@@ -42,18 +42,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/twilio/accounts-accountsid-sms-shortcodes-get.md
-- name: Twilio Add SMS Short Code Media
-  description: Tries to update the shortcodes properties, and returns the updatednresource
-    representation if successful.n
+- name: Twilio Get SMS Short Code Media
+  description: Returns a list of ShortCode resource representations, each representing
+    anshort code within your account. The list includes paging information.n
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accounts-accountsid-sms-shortcodes-shortcodesid-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accounts-accountsid-sms-shortcodes-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accounts-accountsid-sms-shortcodes-shortcodesid-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accounts-accountsid-sms-shortcodes-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
