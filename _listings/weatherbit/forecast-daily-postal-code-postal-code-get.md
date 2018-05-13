@@ -1,12 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Weatherbit
-  description: This is the documentation for the Weatherbit API.  The base URL for
-    the API is [http://api.weatherbit.io/v2.0/](http://api.weatherbit.io/v2.0/) or
-    [https://api.weatherbit.io/v2.0/](http://api.weatherbit.io/v2.0/). Below is the
-    Swagger UI documentation for the API. All API requests require the `key` parameter.        An
-    Example for a 5 day forecast for London, UK would be `http://api.weatherbit.io/v2.0/forecast/3hourly?city=London`&amp;`country=UK`
+  title: Weatherbit Get Forecast Daily Postla Code Code
+  description: '**(REQUIRED: Basic Plan or Higher)** Returns a daily forecast, where
+    each point represents one day (24hr) period. Every point has a datetime string
+    in the format "YYYY-MM-DD". One day begins at 00:00 UTC, and ends at 23:59 UTC.'
   version: 2.0.0
 host: api.weatherbit.io
 basePath: /v2.0
