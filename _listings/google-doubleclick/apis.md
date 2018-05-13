@@ -26,15 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/google-doubleclick/userprofiles-profileid-postalcodes-code-get.md
-- name: Google Doubleclick API Get Postal Codes
-  description: Retrieves a list of postal codes.
+- name: Google Doubleclick API Get Postal Code
+  description: Gets one postal code by ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/google-doubleclick/userprofiles-profileid-postalcodes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/google-doubleclick/userprofiles-profileid-postalcodes-code-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
