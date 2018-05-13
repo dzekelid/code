@@ -33,7 +33,7 @@ apis:
   tags: Code
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/akamai/events-v2-accountid-sites-cpcodes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/akamai/config-media-live-v1-live-utils-cpcode-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
