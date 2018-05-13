@@ -26,7 +26,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/code/master/_listings/weatherbit/history-hourly-postal-code-postal-code-get.md
+- name: Weatherbit Get Bulk History Daily Postal Code
+  description: Returns Historical Observations - Given a Postal Code.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
+  humanURL: https://www.weatherbit.io/api
+  baseURL: https://api.weatherbit.io//v2.0
+  tags: Code
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/weatherbit/bulk-history-daily-postal-code-postal-code-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/weatherbit/bulk-history-daily-postal-code-postal-code-get-postman.md
 x-common:
+- type: x-blog
+  url: https://www.weatherbit.io/blog
+- type: x-contact-form
+  url: https://www.weatherbit.io/contact
+- type: x-documentation
+  url: https://www.weatherbit.io/api
+- type: x-github
+  url: https://github.com/weatherbit
+- type: x-pricing
+  url: https://www.weatherbit.io/pricing
+- type: x-twitter
+  url: https://twitter.com/weatherbitio
+- type: x-website
+  url: https://www.weatherbit.io/api
 - type: x-blog
   url: https://www.weatherbit.io/blog
 - type: x-contact-form
