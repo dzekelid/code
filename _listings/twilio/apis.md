@@ -7,65 +7,119 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio
 x-kinRank: "10"
 x-alexaRank: "9195"
 tags: Code
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Twilio Get SMS Short Code Media
-  x-api-slug: twilio
-  description: Get a single message.
+- name: Twilio - Get Available Local Phone Numbers
+  x-api-slug: accountsaccountsidavailablephonenumbersisocountrycodelocal-format-get
+  description: Returns a list of local AvailablePhoneNumber resource representationsnthat
+    match the specified filters, each representing a phone number thanis currently
+    available for provisioning within your account.n
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
-  baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/SMS/ShortCodes/{ShortCodeSid}
-  tags: Short Codes
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidsmsshortcodesshortcodesid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodelocal-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidsmsshortcodesshortcodesid-get-openapi.md
-- name: Twilio Add SMS Short Code Media
-  x-api-slug: twilio
-  description: Tries to update the shortcodes properties, and returns the updatednresource
-    representation if successful.n
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodelocal-format-get-openapi.md
+- name: Twilio - Get Available Mobile Phone Numbers
+  x-api-slug: accountsaccountsidavailablephonenumbersisocountrycodemobile-format-get
+  description: Returns a list of mobile AvailablePhoneNumber resource representations
+    that match the specified filters, each representing a phone number that is currently
+    available for provisioning within your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
-  baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/SMS/ShortCodes/{ShortCodeSid}
-  tags: Short Codes
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidsmsshortcodesshortcodesid-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodemobile-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidsmsshortcodesshortcodesid-post-openapi.md
-- name: Twilio Get SMS Short Code Media
-  x-api-slug: twilio
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodemobile-format-get-openapi.md
+- name: Twilio - Get Available Toll Free Phone Numbers
+  x-api-slug: accountsaccountsidavailablephonenumbersisocountrycodetollfree-format-get
+  description: Returns a list of toll-free AvailablePhoneNumber elements that match
+    thenspecified filters, each representing a phone number that is currentlynavailable
+    for provisioning within your account. To provision an availablenphone number,
+    POST the number to the IncomingPhoneNumbers resource.n
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodetollfree-format-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidavailablephonenumbersisocountrycodetollfree-format-get-openapi.md
+- name: Twilio - Get SMS Short Code Media
+  x-api-slug: accountsaccountsidsmsshortcodes-get
   description: Returns a list of ShortCode resource representations, each representing
     anshort code within your account. The list includes paging information.n
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
-  baseURL: https://api.twilio.com//2010-04-01///Accounts/{AccountSid}/SMS/ShortCodes
-  tags: Short Codes
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidsmsshortcodes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidsmsshortcodes-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: Cloud communications platform for building SMS, Voice & Messaging applications
-    on an API built for global scale. Get started with a free trial.
+- name: Twilio - Get SMS Short Code Media
+  x-api-slug: accountsaccountsidsmsshortcodesshortcodesid-get
+  description: Get a single message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
-  tags: Code
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidsmsshortcodesshortcodesid-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidsmsshortcodesshortcodesid-get-openapi.md
+- name: Twilio - Add SMS Short Code Media
+  x-api-slug: accountsaccountsidsmsshortcodesshortcodesid-post
+  description: Tries to update the shortcodes properties, and returns the updatednresource
+    representation if successful.n
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
+  humanURL: http://www.twilio.com
+  baseURL: https://api.twilio.com//2010-04-01/
+  tags: Voice, SMS, Voice, MMS API, MMS, API LIfeyclessss, Getting Started Example,
+    Service Level Agreement, Stack Network, Stack, Technology, SaaS, Telecommunications,
+    Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
+    Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidsmsshortcodesshortcodesid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/accountsaccountsidsmsshortcodesshortcodesid-post-openapi.md
 x-common:
 - type: x--net-library
   url: https://www.twilio.com/docs/csharp/install
 - type: x-acceptable-use-policy
   url: https://www.twilio.com/legal/aup
+- type: x-api-gallery
+  url: http://tvmaze.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://twilio.stack.network
 - type: x-application-gallery
   url: https://www.twilio.com/showcase
 - type: x-base-url
