@@ -12,7 +12,42 @@ created: "2018-08-25"
 modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/github/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: GitHub - Get Repos Owner Repo Stats Code Frequency
+  x-api-slug: reposownerrepostatscode-frequency-get
+  description: |-
+    Get the number of additions and deletions per week.
+    Returns a weekly aggregate of the number of additions and deletions pushed
+    to a repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/github/reposownerrepostatscode-frequency-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/github/reposownerrepostatscode-frequency-get-openapi.md
+- name: GitHub - Get Search Code
+  x-api-slug: searchcode-get
+  description: Search code.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/github/searchcode-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/github/searchcode-get-openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
