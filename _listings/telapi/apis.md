@@ -12,36 +12,6 @@ modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/telapi/apis.md
 specificationVersion: "0.14"
 apis:
-- name: hetras Hotel API Version 0 - Get a list of codes for the specified hotel either
-    filtered by type or code.
-  x-api-slug: apihotelv0hotelshotelidcodes-get
-  description: "With this call you can find codes for a hotel by type or code. By
-    default and without any filter criteria\r\n            defined it will return
-    you all available codes."
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
-  humanURL: http://www.telapi.com
-  baseURL: https://api.hetras-certification.net//
-  tags: SMS, Voice, Voice, Target, Stack Network, Technology, SaaS, Mobile, Telecommunications,
-    SMS, Telecommunications, Messages, Messages, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/telapi/apihotelv0hotelshotelidcodes-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/telapi/apihotelv0hotelshotelidcodes-get-openapi.md
-- name: hetras Hotel API Version 0 - Get all the details for a specific code available
-    for the hotel.
-  x-api-slug: apihotelv0hotelshotelidcodesid-get
-  description: Read the details about a specific code available for the defined hotel.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
-  humanURL: http://www.telapi.com
-  baseURL: https://api.hetras-certification.net//
-  tags: SMS, Voice, Voice, Target, Stack Network, Technology, SaaS, Mobile, Telecommunications,
-    SMS, Telecommunications, Messages, Messages, Service API, Relative Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/telapi/apihotelv0hotelshotelidcodesid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/telapi/apihotelv0hotelshotelidcodesid-get-openapi.md
 - name: hetras Hotel API Version 0 - Get all the details for a specific rateplan in
     the hotel.
   x-api-slug: apihotelv0hotelshotelidrateplansrateplancode-get

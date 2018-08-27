@@ -38,62 +38,32 @@
 			]
 		},
 		{
-			"name": "Eventbrite",
-			"x-api-slug": "eventbrite",
-			"description": "Eventbrite brings people together through live experiences. Discover events that match your passions, or create your own with online ticketing tools.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg",
-			"humanURL": "http://eventbriteapi.com",
-			"baseURL": "https://www.eventbrite.com//%7Bdata-type%7D/",
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
 			"tags": "Code",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/eventbrite/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/stack-exchange/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Heroku",
-			"x-api-slug": "heroku",
-			"description": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg",
-			"humanURL": "http://heroku.com",
-			"baseURL": "https://api.heroku.com//",
+			"name": "Unfuddle",
+			"x-api-slug": "unfuddle",
+			"description": "Join Hundreds of thousands of businesses and individuals who use our bug & issue tracking and Git & Subversion hosting to successfully manage their software projects.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/512-unfuddle.jpg",
+			"humanURL": "http://unfuddle.com",
+			"baseURL": "https:///",
 			"tags": "Code",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/heroku/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Xignite",
-			"x-api-slug": "xignite",
-			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
-			"humanURL": "http://www.xignite.com",
-			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/xignite/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "DonorsChoose",
-			"x-api-slug": "donorschoose",
-			"description": "DonorsChoose.org connects teachers in high-need communities with donors who want to help.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/394-donorschoose.jpg",
-			"humanURL": "http://donorschoose.org",
-			"baseURL": "https://api.donorschoose.org/common/",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/donorschoose/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/unfuddle/openapi.md"
 				}
 			]
 		},
@@ -113,47 +83,47 @@
 			]
 		},
 		{
-			"name": "EPA Envirofacts",
-			"x-api-slug": "epa-envirofacts",
-			"description": "EPAs purpose is to ensure that:    -  all Americans are protected from significant risks to human health and the environment where they live, learn and work;    -  national efforts to reduce environmental risk are based on the best available scientifi...",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg",
-			"humanURL": "http://www.epa.gov",
-			"baseURL": "https://ofmpub.epa.gov//echo",
+			"name": "Pidoco",
+			"x-api-slug": "pidoco",
+			"description": "Create clickable wireframes for websites and mobile apps with our online wireframing tool. Collaboration and exports for easy UI design and UX prototyping.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/893-pidoco.jpg",
+			"humanURL": "https://pidoco.com",
+			"baseURL": "https:///",
 			"tags": "Code",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/epa-envirofacts/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/pidoco/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Instructure",
-			"x-api-slug": "instructure",
-			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
-			"humanURL": "http://instructure.com",
-			"baseURL": "https://canvas.instructure.com//api/v1",
+			"name": "Bugzilla",
+			"x-api-slug": "bugzilla",
+			"description": "Did you know? Mozilla  the maker of Firefox  fights to keep the Internet a global public resource, open and accessible to all.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1035-bugzilla.jpg",
+			"humanURL": "https://wiki.mozilla.org/Bugzilla:REST_API",
+			"baseURL": "https:///",
 			"tags": "Code",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/instructure/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/bugzilla/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "OpenCorporates",
-			"x-api-slug": "opencorporates",
-			"description": "Free and Open Company Data on 135 million companies and corporations in over 125 jurisdictions, including US, UK, Switzerland, Panama...",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg",
-			"humanURL": "http://opencorporates.com",
-			"baseURL": "://api.opencorporates.com/v0.4/",
+			"name": "Sifter API",
+			"x-api-slug": "sifter-api",
+			"description": "A simple bug and issue tracker designed to be easy enough for non-technical team members to help track bugs and issues. Integrates with GitHub, Beanstalk, and Bitbucket.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1151-sifter-api.jpg",
+			"humanURL": "https://sifterapp.com",
+			"baseURL": "https:///",
 			"tags": "Code",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/opencorporates/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/sifter-api/openapi.md"
 				}
 			]
 		},
@@ -173,122 +143,47 @@
 			]
 		},
 		{
-			"name": "Tilt",
-			"x-api-slug": "tilt",
-			"description": "Invite your group to chip in, track who has paid, and make something happen without having to front the cost yourself.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1399-tilt.jpg",
-			"humanURL": "https://www.tilt.com/",
+			"name": "Bugsnag",
+			"x-api-slug": "bugsnag",
+			"description": "Bugsnag monitors apps for errors that impact customers & reports all diagnostic data. By default, we save every error, so your data wont be sampled. Try it free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1314-bugsnag.jpg",
+			"humanURL": "https://www.bugsnag.com/",
 			"baseURL": "https:///",
 			"tags": "Code",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/tilt/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/bugsnag/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Mocky",
-			"x-api-slug": "mocky",
-			"description": "Mock your HTTP responses to test your REST API.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mocky-logo.png",
-			"humanURL": "http://www.mocky.io/",
+			"name": "bintray",
+			"x-api-slug": "bintray",
+			"description": "Bintray gives developers a CDN-based, reliable, download center with REST automation & support for RPM & Debian packages, and generic software distribution",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1603-bintray.jpg",
+			"humanURL": "https://bintray.com/",
 			"baseURL": "https:///",
 			"tags": "Code",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/mocky/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/bintray/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Okta",
-			"x-api-slug": "okta",
-			"description": "Provide secure identity management and single sign-on to any application, whether in the cloud, on-premises or on a mobile device for your employees, partners and customers with Okta.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg",
-			"humanURL": "https://www.okta.com",
-			"baseURL": "https://example.com//api/v1",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/okta/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Intuit",
-			"x-api-slug": "intuit",
-			"description": "See how the power of Intuit Giants can work for you by joining the over 46 million people already using TurboTax, QuickBooks and Mint to power their financial prosperity.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg",
-			"humanURL": "https://intuit.com",
-			"baseURL": "https://DefaultParameterValue//v3/company/DefaultParameterValue",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/intuit/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Quandl",
-			"x-api-slug": "quandl",
-			"description": "Quandl delivers financial data to users in the format they want. Access thousands of databases via the Quandl API or in your tool of choice.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg",
-			"humanURL": "http://quandl.com",
-			"baseURL": "https://www.quandl.com//api/v3",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/quandl/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Shopify",
-			"x-api-slug": "shopify",
-			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
-			"humanURL": "https://www.shopify.com/",
-			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/shopify/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Bitbucket",
-			"x-api-slug": "bitbucket",
-			"description": "Collaborate on code with inline comments and pull requests. Manage and share your Git repositories to build and ship software, as a team.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg",
-			"humanURL": "http://bitbucket.org",
-			"baseURL": "https://api.bitbucket.org//2.0",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/bitbucket/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "APIEmbed",
-			"x-api-slug": "apiembed",
-			"description": "Auto-generated code snippets in many programming languages for your website, blog or API documentation. Made with Love by Mashape.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19910-apiembed.jpg",
-			"humanURL": "https://apiembed.com/",
+			"name": "Deveo",
+			"x-api-slug": "deveo",
+			"description": "Discover why enterprise teams powered by Perforce have freedom to innovate at unrivaled scale.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1833-deveo.jpg",
+			"humanURL": "https://deveo.com",
 			"baseURL": "https:///",
 			"tags": "Code",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/apiembed/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/deveo/openapi.md"
 				}
 			]
 		},
@@ -428,21 +323,6 @@
 			]
 		},
 		{
-			"name": "Google Cloud Source Repositories",
-			"x-api-slug": "google-cloud-source-repositories",
-			"description": "Google Cloud Source Repositories provides Git version control to support collaborative development of any application or service, including those that run on Google App Engine and Google Compute Engine. If you are using the Stackdriver Debugger, you can use Cloud Source Repositories and related tools to view debugging information alongside your code during application runtime. Cloud Source Repositories also provides a source browser that you can use to view your repository files from within the Cloud Console.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-repositories.png",
-			"humanURL": "https://cloud.google.com/source-repositories/",
-			"baseURL": "://sourcerepo.googleapis.com//",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/google-cloud-source-repositories/openapi.md"
-				}
-			]
-		},
-		{
 			"name": "Lykke",
 			"x-api-slug": "lykke",
 			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
@@ -454,51 +334,6 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/lykke/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Weatherbit.io",
-			"x-api-slug": "weatherbit-io",
-			"description": "Our Weather API is the most powerful Weather data API on the web. Sign up for our free Weather API, and upgrade as your weather data needs grow!",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg",
-			"humanURL": "http://weatherbit.io",
-			"baseURL": "https://api.weatherbit.io//v2.0",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/weatherbit-io/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Amadeus",
-			"x-api-slug": "amadeus",
-			"description": "Amadeus travel technology helps businesses connect to the global travel ecosystem, manage operations more effectively and serve travellers better than ever",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg",
-			"humanURL": "https://amadeus.com",
-			"baseURL": "https://api.sandbox.amadeus.com//v1.2",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/amadeus/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Code.gov",
-			"x-api-slug": "code-gov",
-			"description": "Code.gov leverages the power of code sharing and collaboration to help the US Government cut down on duplicative software development and save millions of taxpayer dollars for the American people.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/code-gov-logo.jpg",
-			"humanURL": "https://code.gov/",
-			"baseURL": "https://api.code.gov//",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/code-gov/openapi.md"
 				}
 			]
 		},
@@ -533,51 +368,6 @@
 			]
 		},
 		{
-			"name": "Jumpseller",
-			"x-api-slug": "jumpseller",
-			"description": "We founded Jumpseller.com in 2009 in Europe  we called it Vendder back then  and released our first version of the Jumpseller product in September 2010. After releasing the product we quickly grew to thousands of customers. In November 2010, we recei...",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28432-jumpseller-api.jpg",
-			"humanURL": "http://jumpseller.com",
-			"baseURL": "https://api.jumpseller.com//v1",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/jumpseller/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "PayRun",
-			"x-api-slug": "payrun",
-			"description": "An open, scalable, transparent and HMRC accredited payroll API. Put the power of payroll into your application today.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
-			"humanURL": "http://www.payrun.io",
-			"baseURL": "https://api.test.payrun.io//",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/payrun/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Rebilly",
-			"x-api-slug": "rebilly",
-			"description": "",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
-			"humanURL": "https://www.rebilly.com",
-			"baseURL": "https://api.rebilly.com//v2.1",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/rebilly/openapi.md"
-				}
-			]
-		},
-		{
 			"name": "Ship Station",
 			"x-api-slug": "ship-station",
 			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
@@ -589,96 +379,6 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/ship-station/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Transport for London Unified",
-			"x-api-slug": "transport-for-london-unified",
-			"description": "We are the integrated transport authority responsible for delivering Mayor of London Sadiq Khans strategy and commitments on transport. We run the day-to-day operation of the Capitals public transport network and manage Londons main roads.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png",
-			"humanURL": "https://tfl.gov.uk/",
-			"baseURL": "https://api.tfl.gov.uk//",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/transport-for-london-unified/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "EU VAT API",
-			"x-api-slug": "eu-vat-api",
-			"description": "A developer friendly API to help your business achieve VAT compliance. Are you selling digital services to other EU countries? From Jan 1st 2015 changes to the VAT place of supply are coming into effect. One acceptable way to prove where your customer resides is their IP address. We have removed the headache and cost of you having to geo locate your customers IP address, and workout what VAT rate they should be charged. Simply pass your customers IP address from your application to our API and well return a JSON or XML object of all the current EU VAT rates for that country, or if you already know their country you can lookup the rates from the 2 digit country code.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png",
-			"humanURL": "http://vatapi.com",
-			"baseURL": "https://vatapi.com//v1",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/eu-vat-api/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Fire Browse",
-			"x-api-slug": "fire-browse",
-			"description": "A simple and elegant way to explore cancer data. Sitting above one of the deepest and most integratively characterized open cancer datasets in the world. Backed by a powerful computational infrastructure, application programming interface (API), graphical tools and online reports. With over 80K sample aliquots from 11,000+ cancer patients, spanning 38 unique disease cohorts.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebrowse.png",
-			"humanURL": "http://firebrowse.org",
-			"baseURL": "https://firebrowse.org//api/v1",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/fire-browse/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Apigee",
-			"x-api-slug": "apigee",
-			"description": "Apigee Edge is a platform for developing and managing API proxies. Think of a proxy as an abstraction layer that fronts for your backend service APIs and provides value-added features like security, rate limiting, quotas, analytics, and more. The primary consumers of Edge API proxies are app developers who want to use your backend services.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png",
-			"humanURL": "https://docs.apigee.com/api-platform/get-started/what-apigee-edge",
-			"baseURL": "https://api.enterprise.apigee.com//v1/",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/apigee/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Datree",
-			"x-api-slug": "datree",
-			"description": "Datree scans, catalogs and recommends code components in the context of your stack. Locate and sync your dev stack across your entire team with a single click, and get valuable insights that allow you to choose the right code components for your projects. Gain instant access to your company&rsquo;s entire development stack through GitHub or any other version control repository. We map your code components, development tools and internal know-how within your organization, giving you visibility into your tech stack. Connect directly into your Terminal, IDE, or as a Slack bot (coming soon) ensuring developers never have to leave the dev environment to benefit from our recommendation engine.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28708-www-datree-io.jpg",
-			"humanURL": "https://www.datree.io",
-			"baseURL": "https:///",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/datree/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "GitLab",
-			"x-api-slug": "gitlab",
-			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
-			"humanURL": "http://gitlab.com",
-			"baseURL": "https://localhost:3000//api",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/gitlab/openapi.md"
 				}
 			]
 		},
@@ -713,21 +413,6 @@
 			]
 		},
 		{
-			"name": "ATTOM",
-			"x-api-slug": "attom",
-			"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg",
-			"humanURL": "https://api.developer.attomdata.com",
-			"baseURL": "https://search.onboard-apis.com//communityapi/v2.0.0",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/attom/openapi.md"
-				}
-			]
-		},
-		{
 			"name": "GIG & CROWD",
 			"x-api-slug": "gig--crowd",
 			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
@@ -739,36 +424,6 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/gig--crowd/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Plentymarkets",
-			"x-api-slug": "plentymarkets",
-			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
-			"humanURL": "http://www.plentymarkets.co.uk",
-			"baseURL": "https://example.com//",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/plentymarkets/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Logicbroker",
-			"x-api-slug": "logicbroker",
-			"description": "Logicbroker provides beautiful technology that unites brands, retailers, and the systems they rely on. Harness the latest in cloud and supply chain automation technology with unrivaled speed and integration flexibility. We craft the connections that enable digital commerce.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png",
-			"humanURL": "https://www.logicbroker.com/",
-			"baseURL": "https://stage.commerceapi.io//",
-			"tags": "Code",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/logicbroker/openapi.md"
 				}
 			]
 		}
@@ -784,72 +439,44 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/twilio/apis.yaml"
 		},
 		{
-			"name": "Eventbrite",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/eventbrite/apis.yaml"
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/stack-exchange/apis.yaml"
 		},
 		{
-			"name": "Heroku",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/heroku/apis.yaml"
-		},
-		{
-			"name": "Xignite",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/xignite/apis.yaml"
-		},
-		{
-			"name": "DonorsChoose",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/donorschoose/apis.yaml"
+			"name": "Unfuddle",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/unfuddle/apis.yaml"
 		},
 		{
 			"name": "BugHerd",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/bugherd/apis.yaml"
 		},
 		{
-			"name": "EPA Envirofacts",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/epa-envirofacts/apis.yaml"
+			"name": "Pidoco",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/pidoco/apis.yaml"
 		},
 		{
-			"name": "Instructure",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/instructure/apis.yaml"
+			"name": "Bugzilla",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/bugzilla/apis.yaml"
 		},
 		{
-			"name": "OpenCorporates",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/opencorporates/apis.yaml"
+			"name": "Sifter API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/sifter-api/apis.yaml"
 		},
 		{
 			"name": "TelAPI",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/telapi/apis.yaml"
 		},
 		{
-			"name": "Tilt",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/tilt/apis.yaml"
+			"name": "Bugsnag",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/bugsnag/apis.yaml"
 		},
 		{
-			"name": "Mocky",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/mocky/apis.yaml"
+			"name": "bintray",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/bintray/apis.yaml"
 		},
 		{
-			"name": "Okta",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/okta/apis.yaml"
-		},
-		{
-			"name": "Intuit",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/intuit/apis.yaml"
-		},
-		{
-			"name": "Quandl",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/quandl/apis.yaml"
-		},
-		{
-			"name": "Shopify",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/shopify/apis.yaml"
-		},
-		{
-			"name": "Bitbucket",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/bitbucket/apis.yaml"
-		},
-		{
-			"name": "APIEmbed",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/apiembed/apis.yaml"
+			"name": "Deveo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/deveo/apis.yaml"
 		},
 		{
 			"name": "AWS Lambda",
@@ -888,24 +515,8 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/google-adsense/apis.yaml"
 		},
 		{
-			"name": "Google Cloud Source Repositories",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/google-cloud-source-repositories/apis.yaml"
-		},
-		{
 			"name": "Lykke",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/lykke/apis.yaml"
-		},
-		{
-			"name": "Weatherbit.io",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/weatherbit-io/apis.yaml"
-		},
-		{
-			"name": "Amadeus",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/amadeus/apis.yaml"
-		},
-		{
-			"name": "Code.gov",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/code-gov/apis.yaml"
 		},
 		{
 			"name": "Actility",
@@ -916,44 +527,8 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/avaza/apis.yaml"
 		},
 		{
-			"name": "Jumpseller",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/jumpseller/apis.yaml"
-		},
-		{
-			"name": "PayRun",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/payrun/apis.yaml"
-		},
-		{
-			"name": "Rebilly",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/rebilly/apis.yaml"
-		},
-		{
 			"name": "Ship Station",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/ship-station/apis.yaml"
-		},
-		{
-			"name": "Transport for London Unified",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/transport-for-london-unified/apis.yaml"
-		},
-		{
-			"name": "EU VAT API",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/eu-vat-api/apis.yaml"
-		},
-		{
-			"name": "Fire Browse",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/fire-browse/apis.yaml"
-		},
-		{
-			"name": "Apigee",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/apigee/apis.yaml"
-		},
-		{
-			"name": "Datree",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/datree/apis.yaml"
-		},
-		{
-			"name": "GitLab",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/gitlab/apis.yaml"
 		},
 		{
 			"name": "LogMeIn",
@@ -964,20 +539,8 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/azure-blockchain-workbench/apis.yaml"
 		},
 		{
-			"name": "ATTOM",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/attom/apis.yaml"
-		},
-		{
 			"name": "GIG & CROWD",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/gig--crowd/apis.yaml"
-		},
-		{
-			"name": "Plentymarkets",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/plentymarkets/apis.yaml"
-		},
-		{
-			"name": "Logicbroker",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/logicbroker/apis.yaml"
 		}
 	]
 }
