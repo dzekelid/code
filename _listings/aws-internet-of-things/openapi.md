@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Internet of Things
 x-complete: 1
@@ -40,4 +39,3 @@ paths:
           description: OK
       tags:
       - Registration Codes
----

@@ -16,11 +16,37 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Code
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/aws-code-pipeline/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Code Pipeline API - List Action Types
+  x-api-slug: actionlistactiontypes-get
+  description: |-
+    Gets a summary of all AWS CodePipeline action types associated with your
+                account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/aws-code-pipeline/actionlistactiontypes-get-openapi.md
+- name: AWS Code Pipeline API - Poll For Jobs
+  x-api-slug: actionpollforjobs-get
+  description: Returns information about any jobs for AWS CodePipeline to act upon.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodePipeline.png
+  humanURL: https://aws.amazon.com/datapipeline/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Data, Orchestration, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Migrations, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/aws-code-pipeline/actionpollforjobs-get-openapi.md
 - name: AWS Code Pipeline API - Put Action Revision
   x-api-slug: actionputactionrevision-get
   description: Provides information to AWS CodePipeline about new revisions to a source.

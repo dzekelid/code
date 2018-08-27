@@ -7,11 +7,31 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Code
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/gig--crowd/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: GIG & Crowd - Put Admin Promocode Promocodeid
+  x-api-slug: apiv1adminpromocodepromocodeid-put
+  description: Put admin promocode promocodeid.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/gig--crowd/apiv1adminpromocodepromocodeid-put-openapi.md
+- name: GIG & Crowd - Delete Admin Promocode Promocodeid
+  x-api-slug: apiv1adminpromocodepromocodeid-delete
+  description: Delete admin promocode promocodeid.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/gig--crowd/apiv1adminpromocodepromocodeid-delete-openapi.md
 x-common:
 - type: x-openapi
   url: https://gigandcrowd.com/swagger/docs/v1

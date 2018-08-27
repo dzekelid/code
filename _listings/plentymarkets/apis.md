@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Code
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/plentymarkets/restorderscouponscampaignscodescode-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/plentymarkets/restorderscouponscampaignscodescode-get-openapi.md
+- name: plentymarkets REST-API - Create a coupon code
+  x-api-slug: restorderscouponscampaignscampaignidcodes-post
+  description: Creates a coupon code. The ID of the campaign must be specified. A
+    code can optionally be specified. A random code will be generated if the code
+    is not specified. A coupon value can also be optionally specified. The value of
+    the campaign will be used if no individual value is specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/plentymarkets/restorderscouponscampaignscampaignidcodes-post-openapi.md
+- name: plentymarkets REST-API - Redeem a coupon code
+  x-api-slug: restordersorderidcouponscoupon-post
+  description: Redeems a coupon code and applies it to an order. The ID of the order
+    must be specified. If the coupon was successfully redeemed, the coupon data will
+    be returned. If the coupon can not be redeemed, a validation exception will be
+    thrown.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/code/master/_listings/plentymarkets/restordersorderidcouponscoupon-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1
